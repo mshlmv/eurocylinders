@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+$base-font-size: 16;
+$main-color: #3f485d;
+$text-color: $main-color;
+
+@function rem($num) {
+  $rem-size: $num / $base-font-size;
+  @return #{$rem-size}rem;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: $text-color;
+}
+
+h2 {
+  font-size: rem(48);
+}
+
+section.colored {
+  background-color: #e2e2e2;
+}
+
+.assortment-text {
+  padding: rem(30);
+
+  p:not(:last-child) {
+    margin-bottom: rem(16);
+  }
+}
+.assortment-text__heading {
+  font-size: rem(26);
+  line-height: rem(30);
+  margin-bottom: rem(20);
+}
