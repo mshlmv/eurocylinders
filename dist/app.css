@@ -13956,10 +13956,24 @@ body {
 
 h2 {
   font-size: 3rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.625rem;
+  font-weight: 500;
 }
 
 section.colored {
   background-color: #e2e2e2;
+}
+
+.text p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.assortment-image {
+  max-height: 320px;
 }
 
 .assortment-text {
