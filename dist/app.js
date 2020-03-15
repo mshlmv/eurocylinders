@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\sholomov-ms\Documents\DEV\euroc\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\sholomov-ms\Documents\DEV\euroc\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! /Users/mshlmv/Dev/eurocylinders/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /Users/mshlmv/Dev/eurocylinders/src/app.scss */"./src/app.scss");
 
 
 /***/ })
